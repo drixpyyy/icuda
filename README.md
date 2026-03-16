@@ -66,7 +66,7 @@ iCUDA is completely open-source and safe. It requires no installers or third-par
 4. Extract the folder. Go into the `bin` folder and run `gcc.exe`(or whatever the fuck the main file looks like in the folder) should take less than half a second for it to setup then to make sure its installed open a cmd and type gcc -v and if you see a bunch of random bullshit and not an error its downloaded
 
 #### 2. Compile iCUDA
-Once you have the `icuda.c` file and GCC ready, run the following command in your terminal compile into the DLL:
+Once you have the `icuda.c` file and GCC ready, run
 
 ```bash
 gcc -shared -o icuda.dll icuda.c -O3 -mavx2 -mfma -static

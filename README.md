@@ -5,7 +5,7 @@ iCUDA is an attempt at recreating CUDA but for all integrated graphic gpus
 ### Why
 most python scripts use your computers cpu if it doesnt detect if you have a actual gpu or a nividia gpu that supports CUDA
 
-### How It Works (The Mechanics)
+### How It Works
 iCUDA works through Extreme Vectorization Normally, a CPU processes one piece of data at a time. iCUDA uses AVX2 (Advanced Vector Extensions 2) to force the silicon to process 8 floating-point numbers in a single clock cycle.
 
 1.  **SIMD (Single Instruction, Multiple Data):** We use `__m256` registers to pack 8 different calculations into one instruction.

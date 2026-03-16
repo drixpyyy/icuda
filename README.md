@@ -59,7 +59,6 @@ dll.update_output_layer(ptr(W2), ptr(h), ptr(grads), 256, 154856, 0.001)
 iCUDA is completely open-source and safe. It requires no installers or third-party libraries. You compile it yourself so you know exactly what code is running on your hardware.
 
 #### 1. Setup the Compiler
-To compile iCUDA, you need a modern GCC compiler that supports AVX2. 
 1. Go to [WinLibs.com](https://winlibs.com/#download-release).
 2. Scroll to the "Latest" section.
 3. Find **"Win64 (without LLVM/Clang/LLD/LLDB): Zip Archive"** under the **UCRT** release. 
